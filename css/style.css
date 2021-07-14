@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:white;
+}
+
+.contents {
+	 display: flex;
+	  flex-wrap: nowrap;
+	  flex-direction: column;
+	  justify-content: space-between;
+	  align-items: center;
+	  align-content: center;
+	  box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+  	  height:30px;
+  	  margin-top: 15px;
+}
+
+.item {
+	 flex: 0 0 auto;
+  	margin: 10px;
+}
+
+.item span {
+  	font-size: 48px;
+}
+
+
+.content_text {
+	font-weight:bold;
+	font-size:5em;
+	color:#fff;
+}
