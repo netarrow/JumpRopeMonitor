@@ -12,6 +12,7 @@
         setTimeout(function () {
           if (e.heartRate > 0) {
             onUpdate(e.heartRate);
+            window.repository.trackHrt(e.heartRate)
           }
         }, 500);
       },
