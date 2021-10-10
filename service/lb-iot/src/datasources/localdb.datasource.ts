@@ -4,8 +4,7 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'localdb',
   connector: 'memory',
-  localStorage: 'sensors',
-  file: 'data'
+  localStorage: 'sensors'
 };
 
 // Observe application's life cycle to disconnect the datasource when
