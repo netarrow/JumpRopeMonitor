@@ -1,0 +1,11 @@
+{
+  "ids": {
+    "HeartRate": 104
+  },
+  "models": {
+    "HeartRate": {
+      "100": "{\"Rate\":140,\"timestamp\":100,\"additionalProp1\":{}}",
+      "102": "{\"Rate\":140,\"timestamp\":102,\"additionalProp1\":{}}"
+    }
+  }
+}
