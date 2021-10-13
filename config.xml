@@ -9,6 +9,8 @@
     <feature name="http://tizen.org/feature/sensor.gravity"/>
     <icon src="icon.png"/>
     <name>JumpMonitor</name>
+    <access origin="*" subdomains="true"></access>
+	<tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
     <tizen:privilege name="http://tizen.org/privilege/location"/>
     <tizen:profile name="wearable"/>

@@ -37,13 +37,15 @@ export class HeartRateController {
         'application/json': {
           schema: getModelSchemaRef(HeartRate, {
             title: 'NewHeartRate',
-            exclude: ['id'],
+            exclude: ['timestamp'],
           }),
         },
       },
     })
-    heartRate: Omit<HeartRate, 'id'>,
+    heartRate: Omit<HeartRate, 'timestamp'>,
   ): Promise<HeartRate> {
+    heartRate.timestamp = + new Date() // + is a trick to convert date to timestamp
+    console.log('get hrt')
     return this.heartRateRepository.create(heartRate);
   }
 
