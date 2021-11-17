@@ -53,6 +53,11 @@
     "@loopback/rest": "^10.0.1",
     "@loopback/rest-explorer": "^3.3.3",
     "@loopback/service-proxy": "^3.2.3",
+    "azure-iot-common": "^1.12.13",
+    "azure-iot-device": "^1.17.8",
+    "azure-iot-device-amqp": "^1.13.8",
+    "azure-iothub": "^1.14.6",
+    "dotenv": "^10.0.0",
     "tslib": "^2.0.0"
   },
   "devDependencies": {

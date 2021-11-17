@@ -4,3 +4,4 @@
 *signature*.xml
 *.wgt
 .*_delta*
+.env

@@ -45,7 +45,7 @@ export class HeartRateController {
     heartRate: Omit<HeartRate, 'timestamp'>,
   ): Promise<HeartRate> {
     heartRate.timestamp = + new Date() // + is a trick to convert date to timestamp
-    console.log('get hrt')
+    
     return this.heartRateRepository.create(heartRate);
   }
 
